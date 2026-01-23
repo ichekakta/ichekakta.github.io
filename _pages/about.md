@@ -6,7 +6,7 @@ subtitle: Postdoctoral Research Associate | <a href='https://www.sheffield.ac.uk
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IssamChekaktaEEE.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Amy Johnson Building, SoEEE</p>
