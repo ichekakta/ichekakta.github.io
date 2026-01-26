@@ -7,7 +7,9 @@ subtitle: Postdoctoral Research Associate | <a href='https://www.sheffield.ac.uk
 profile:
   align: right
   image: IssamChekaktaEEE.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
+  width: 300px # increase image width
+  height: 700px # increase image height
   more_info: >
     <p>Amy Johnson Building, SoEEE</p>
     <p>Portbello Street, Sheffield, S1 3JD, United Kingdom</p>

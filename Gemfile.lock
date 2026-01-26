@@ -59,11 +59,13 @@ GEM
     ffi (1.17.1-arm-linux-gnu)
     ffi (1.17.1-arm-linux-musl)
     ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x64-mingw-ucrt)
     ffi (1.17.1-x86-linux-gnu)
     ffi (1.17.1-x86-linux-musl)
     ffi (1.17.1-x86_64-darwin)
     ffi (1.17.1-x86_64-linux-gnu)
     ffi (1.17.1-x86_64-linux-musl)
+    fiddle (1.1.8)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     google-protobuf (4.29.2)
@@ -192,6 +194,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.1-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.18.1-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.18.1-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.1-x86_64-linux-gnu)
@@ -221,6 +225,8 @@ GEM
       google-protobuf (~> 4.28)
     sass-embedded (1.83.0-arm64-darwin)
       google-protobuf (~> 4.28)
+    sass-embedded (1.83.0-x64-mingw-ucrt)
+      google-protobuf (~> 4.28)
     sass-embedded (1.83.0-x86-linux-gnu)
       google-protobuf (~> 4.28)
     sass-embedded (1.83.0-x86-linux-musl)
@@ -244,6 +250,7 @@ GEM
     unicode-display_width (2.6.0)
     unicode_utils (1.4.0)
     uri (1.0.2)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -256,6 +263,7 @@ PLATFORMS
   arm-linux-musl
   arm-linux-musleabihf
   arm64-darwin
+  x64-mingw-ucrt
   x86-linux
   x86-linux-gnu
   x86-linux-musl
@@ -268,6 +276,7 @@ DEPENDENCIES
   classifier-reborn
   css_parser
   feedjira
+  fiddle
   httparty
   jekyll
   jekyll-archives
@@ -290,6 +299,7 @@ DEPENDENCIES
   ostruct
   terser
   unicode_utils
+  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH
