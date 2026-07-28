@@ -8,7 +8,7 @@ profile:
   align: right
   image: IssamChekaktaEEE.jpg
   image_circular: false # crops the image to make it circular
-  width: 300px # increase image width
+  width: 350px # increase image width
   height: 700px # increase image height
   more_info: >
     <p>Amy Johnson Building, SoEEE</p>
