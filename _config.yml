@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Issam Chekakta"
+  name             : "Dr. Issam Chekakta"
   avatar           : "IssamChekaktaEEE.jpg"
   bio              : "Research Associate in Control and Optimisation"
   location         : "Sheffield, United Kingdom"
@@ -180,6 +180,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  projects:
     output: true
     permalink: /:collection/:path/
 

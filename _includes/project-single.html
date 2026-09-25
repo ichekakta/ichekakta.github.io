@@ -1,0 +1,58 @@
+<div class="project-card">
+
+  {% if post.image %}
+  <div class="project-card__image">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+  </div>
+  {% endif %}
+
+  <div class="project-card__content">
+
+    <h2 class="project-card__title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+
+    <div class="project-card__meta">
+
+      {% if post.role %}
+        <strong>{{ post.role }}</strong>
+      {% endif %}
+
+      {% if post.organisation %}
+        <span> · {{ post.organisation }}</span>
+      {% endif %}
+
+    </div>
+
+    {% if post.date %}
+      <div class="project-card__date">
+        {{ post.date | date: "%Y" }}
+        {% if post.status %}
+          – {{ post.status }}
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if post.technologies %}
+      <div class="project-card__technologies">
+        {% for technology in post.technologies %}
+          <span class="project-tag">{{ technology }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if post.partner_groups %}
+    <div class="project-card__partners">
+        {% for group in post.partner_groups %}
+        <span class="partner-tag">{{ group }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <a class="project-card__link" href="{{ post.url | relative_url }}">
+      View project →
+    </a>
+
+  </div>
+
+</div>
