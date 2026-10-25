@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Technical conference session illustration</title>
+  <desc id="desc">Illustrative placeholder of a conference stage with abstract audience forms and a control diagram.</desc>
+  <rect width="1200" height="800" fill="#d7ebe4"/>
+  <path d="M0 565h1200v235H0z" fill="#173b43"/>
+  <rect x="145" y="95" width="910" height="405" fill="#fffdf6"/>
+  <rect x="190" y="140" width="820" height="315" fill="#173b43"/>
+  <text x="235" y="205" fill="#f2b84b" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2">MODEL PREDICTIVE CONTROL</text>
+  <path d="M250 380h145v-95h145v95h145v-135h145v135h145" fill="none" stroke="#8dd0bf" stroke-width="9"/>
+  <path d="M260 420c74-95 126 4 200-68s132 29 206-74 138 18 212-88" fill="none" stroke="#ee7554" stroke-width="8"/>
+  <circle cx="260" cy="420" r="10" fill="#f2b84b"/><circle cx="878" cy="190" r="10" fill="#f2b84b"/>
+  <path d="M100 710q80-170 160 0zm200 0q80-180 160 0zm200 0q80-155 160 0zm200 0q80-185 160 0zm200 0q80-165 160 0z" fill="#ee7554"/>
+  <rect x="55" y="48" width="330" height="44" fill="#fffdf6"/>
+  <text x="73" y="78" fill="#173b43" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1">ILLUSTRATIVE PLACEHOLDER</text>
+</svg>

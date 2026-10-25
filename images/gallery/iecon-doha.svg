@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">IECON 2026 conference illustration</title>
+  <desc id="desc">An abstract conference scene with a control-system diagram, Doha-inspired skyline forms, and a visible illustration label.</desc>
+  <rect width="1200" height="800" fill="#d8eee9"/>
+  <path d="M0 590H1200V800H0z" fill="#173b43"/>
+  <path d="M0 550 90 500l90 50v40H0zm180 20 85-70 85 70v20H180zm190-55 105-90 110 90v55H370zm215 35 70-56 70 56v20H585z" fill="#f2b84b"/>
+  <path d="M745 565V180h365v385z" fill="#f7f4e9"/>
+  <path d="M785 222h285v278H785z" fill="#173b43"/>
+  <path d="M814 455h34V390h34v-62h34v35h34V285h34v83h34v-52h34v139z" fill="#ee7554"/>
+  <path d="M815 420c45-88 87 26 132-57s86-43 122-119" fill="none" stroke="#8dd0bf" stroke-width="10"/>
+  <circle cx="1055" cy="244" r="13" fill="#f2b84b"/>
+  <path d="M760 565h335" stroke="#ee7554" stroke-width="10"/>
+  <text x="70" y="105" fill="#173b43" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="2">FIELD NOTE 01 / DOHA</text>
+  <text x="70" y="205" fill="#173b43" font-family="Arial,sans-serif" font-size="70" font-weight="700">IECON</text>
+  <text x="70" y="270" fill="#173b43" font-family="Arial,sans-serif" font-size="45">2026</text>
+  <text x="70" y="340" fill="#31585f" font-family="Arial,sans-serif" font-size="25">AEROSPACE CONTROL</text>
+  <rect x="70" y="690" width="330" height="48" rx="3" fill="#f7f4e9"/>
+  <text x="91" y="722" fill="#173b43" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="1">ILLUSTRATIVE PLACEHOLDER</text>
+</svg>

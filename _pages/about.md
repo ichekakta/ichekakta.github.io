@@ -1,20 +1,37 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Research Associate in aerospace propulsion control at the University of Sheffield, focusing on aircraft engines, robust MPC, and real-time optimisation."
 author_profile: true
+news: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a Research Associate in Control and Optimisation at the <a href="https://sheffield.ac.uk/eee/research/centres/control-monitoring-and-systems-engineering-utc"> Rolls-Royce University Technology Centre (UTC) </a> in Control, Monitoring & Systems Engineering, <a href="https://sheffield.ac.uk/">University of Sheffield</a>, and a member of the <a href="https://www.theiet.org/" > Institution of Engineering and Technology (IET)</a>. I hold a PhD in Automatic and Systems from one of the leading national universities in Algeria, the University of Ferhat Abbas Sétif-1. During my final year (2022-2023) as a PhD student, I served as a Teaching Assistant for the Vibrations and Waves course. My PhD works were conducted under the supervision of Prof. <a href="https://scholar.google.com/citations?user=RWHSoioAAAAJ&hl=en"> Djamel Belkhiat</a>, and the co-supervison of Prof. <a href="https://scholar.google.com/citations?user=_SitnwMAAAAJ&hl=en"> Kevin Guelton</a> from the University of Reims Champagne-Ardenne, France; as well as research collaborators, Dr. <a href="https://scholar.google.com/citations?user=Za1aVnYAAAAJ&hl=en"> Koffi Motchon</a> and Prof. <a href="https://scholar.google.com/citations?user=KzXd6AwAAAAJ&hl=en"> Dalel Jabri</a>. I received my Bachelor's and Master's degrees in Automation and Control in petrochemical industries from the University of 20 August 1955 Skikda, Algeria, in 2016 and 2018, respectively. 
+I'm a Research Associate in Control and Optimisation at the [Rolls-Royce University Technology Centre (UTC)](https://sheffield.ac.uk/eee/research/centres/control-monitoring-and-systems-engineering-utc), part of the [University of Sheffield](https://sheffield.ac.uk/). I'm also a member of the [Institution of Engineering and Technology](https://www.theiet.org/).
 
-Office: B20, Amy Johnson Building, University of Sheffield, S1 3JD, Sheffield, United Kingdom
+My work focuses on control and optimisation for aerospace propulsion, particularly aircraft engines.
 
+> When model predictive control runs on real-time hardware, which of its guarantees still hold?
 
-### Research ###
+That question guides my work across systems & control, optimisation and hardware implementation.
 
-My current research asks one question: when a model predictive controller runs on real-time hardware, which of its guarantees hold? I work on robust and safe MPC, on deterministic optimisation on FPGA and SoC platforms, on control and estimation for switched and quasi-LPV systems, a general modelling framework that covers broad classes of nonlinear and hybrid dynamics through Takagi–Sugeno and sector-nonlinearity representations, which is the foundation of my PhD.
+## Research directions
 
+- **Robust and safe control:** model predictive control with guarantees that matter in practice.
+- **Real-time optimisation:** deterministic optimisation mapped to FPGA and SoC platforms.
+- **Switched and quasi-LPV systems:** control and estimation for nonlinear and hybrid dynamics, including Takagi-Sugeno models.
+
+## Background
+
+I earned my PhD in Automatic and Systems at the University of Ferhat Abbas Setif-1 in Algeria. My doctoral research was supervised by Prof. [Djamel Belkhiat](https://scholar.google.com/citations?user=RWHSoioAAAAJ&hl=en), co-supervised by Prof. [Kevin Guelton](https://scholar.google.com/citations?user=_SitnwMAAAAJ&hl=en), and developed with Dr. [Koffi Motchon](https://scholar.google.com/citations?user=Za1aVnYAAAAJ&hl=en) and Prof. [Dalel Jabri](https://scholar.google.com/citations?user=KzXd6AwAAAAJ&hl=en).
+
+I hold Bachelor's and Master's degrees in Automation and Control in Petrochemical Industries from the University of 20 August 1955 Skikda, awarded in 2016 and 2018. In 2022-2023, I was a teaching assistant for Vibrations and Waves.
+
+## Explore
+
+[Publications](/publications/) · [CV](/cv/) · [Google Scholar](https://scholar.google.com/citations?user=X9_WRmUAAAAJ&hl=en)
+
+**Office:** B20, Amy Johnson Building, University of Sheffield, S1 3JD, Sheffield, United Kingdom.
 

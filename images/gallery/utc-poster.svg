@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">FPGA research poster illustration</title>
+  <desc id="desc">Illustrative placeholder of a research poster with an FPGA, a turbine, and a control workflow.</desc>
+  <rect width="1200" height="800" fill="#e6eee6"/>
+  <path d="M0 630h1200v170H0z" fill="#173b43"/>
+  <rect x="180" y="72" width="700" height="540" fill="#fffdf6"/>
+  <rect x="220" y="110" width="620" height="68" fill="#173b43"/>
+  <text x="250" y="155" fill="#fffdf6" font-family="Arial,sans-serif" font-size="27" font-weight="700">FPGA CO-PROCESSING</text>
+  <text x="225" y="218" fill="#60777a" font-family="Arial,sans-serif" font-size="18">MODEL PREDICTIVE CONTROL FOR AERO-ENGINES</text>
+  <rect x="230" y="250" width="220" height="170" fill="#d7ebe4"/>
+  <rect x="500" y="255" width="300" height="64" rx="4" fill="#268b83"/>
+  <rect x="500" y="355" width="300" height="64" rx="4" fill="#f2b84b"/>
+  <text x="546" y="295" fill="#fffdf6" font-family="Arial,sans-serif" font-size="20" font-weight="700">CONTROL MODEL</text>
+  <text x="566" y="396" fill="#173b43" font-family="Arial,sans-serif" font-size="20" font-weight="700">FPGA PLATFORM</text>
+  <path d="M450 335h50m-12-12 12 12-12 12" fill="none" stroke="#ee7554" stroke-width="7"/>
+  <path d="M280 370h120M300 350v40m35-55v70m35-47v25" stroke="#ee7554" stroke-width="9"/>
+  <path d="M230 468h570M230 510h440M230 552h500" stroke="#cbd4cc" stroke-width="12"/>
+  <rect x="30" y="710" width="365" height="48" fill="#f2b84b"/>
+  <text x="50" y="742" fill="#173b43" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1">ILLUSTRATIVE PLACEHOLDER</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Research presentation illustration</title>
+  <desc id="desc">Illustrative placeholder slide showing a real-time engine-control signal plot.</desc>
+  <rect width="1200" height="800" fill="#173b43"/>
+  <circle cx="1030" cy="110" r="210" fill="#268b83"/>
+  <path d="M0 640h1200v160H0z" fill="#102e35"/>
+  <rect x="100" y="90" width="860" height="520" rx="8" fill="#fffdf6"/>
+  <text x="155" y="165" fill="#173b43" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="2">REAL-TIME ENGINE CONTROL</text>
+  <text x="155" y="212" fill="#60777a" font-family="Arial,sans-serif" font-size="19">Model predictive control / deterministic execution</text>
+  <path d="M170 500h700M170 430h700M170 360h700M170 290h700" stroke="#dce3dc" stroke-width="2"/>
+  <path d="M170 245v285M345 245v285M520 245v285M695 245v285M870 245v285" stroke="#e6e9e1" stroke-width="2"/>
+  <path d="M170 452c58-10 82-120 142-115s74 100 132 86 76-155 134-139 82 113 139 92 89-75 153-82" fill="none" stroke="#ee7554" stroke-width="9"/>
+  <path d="M170 385c58 5 82 25 142 15s75-37 132-25 76 29 134 17 82-11 139-20 88 13 153 4" fill="none" stroke="#268b83" stroke-width="7"/>
+  <circle cx="440" cy="423" r="10" fill="#f2b84b"/>
+  <circle cx="718" cy="384" r="10" fill="#f2b84b"/>
+  <rect x="100" y="680" width="370" height="50" fill="#f2b84b"/>
+  <text x="122" y="713" fill="#173b43" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="1">ILLUSTRATIVE PLACEHOLDER</text>
+</svg>

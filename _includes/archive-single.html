@@ -13,7 +13,14 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post.collection == 'publications' %} publication-entry{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if post.collection == 'publications' %}
+      <div class="publication-entry__year-rail">
+        {% if post.date %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time>{% endif %}
+      </div>
+      <div class="publication-entry__body">
+    {% endif %}
+
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -26,7 +33,7 @@
       </div>
     {% endif %}
 
-    <h3 style="font-weight: normal; text-decoration: underline" class="archive__item-title" itemprop="headline">
+    <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -41,14 +48,21 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p style="text-indent:30px; font-size: .95em;">
-            <!-- <span class="publication-label"> {{ post.publication_label }}</span> -->
-            <span class="publication-venue"> {{ post.venue }}</span>,
-            {{ post.date | default: "1900-01-01" | date: "%Y" }}
-          </p>
+          <div class="publication-entry__meta">
+            {% if post.venue %}<span class="publication-entry__venue">{{ post.venue }}</span>{% endif %}
+            {% if post.status_label and post.status_label != "" %}<span class="publication-entry__status">{{ post.status_label }}</span>{% endif %}
+          </div>
+          {% if post.authors %}<p class="publication-entry__authors">{{ post.authors }}</p>{% endif %}
+          {% if post.paperurl %}
+            <p class="publication-entry__links"><a href="{{ post.paperurl }}" rel="noopener noreferrer">View paper <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+          {% endif %}
         {% elsif post.date %}
          <p style="font-size: .95em;" class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+
+    {% if post.collection == 'publications' %}
+      </div>
+    {% endif %}
 
     <!-- {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
@@ -56,14 +70,5 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %} -->
     
-    {% if post.citation and post.paperurl %}
-      <p style="text-indent:30px; font-size: .95em;">Authors: {{ post.authors }} </p>
-      <p style="text-indent:30px; font-size: .95em;">DOI: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p style="text-indent:30px; font-size: .95em;">Authors: {{ post.authors }} </p>
-    {% elsif post.paperurl %}
-      <p style="text-indent:30px; font-size: .95em;">Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
-    {% endif %}
-
   </article>
 </div>

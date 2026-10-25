@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Engine control hardware illustration</title>
+  <desc id="desc">Illustrative placeholder linking a turbine silhouette to a real-time control board.</desc>
+  <rect width="1200" height="800" fill="#f3e9d2"/>
+  <circle cx="340" cy="380" r="240" fill="#d7ebe4"/>
+  <circle cx="340" cy="380" r="178" fill="#173b43"/>
+  <circle cx="340" cy="380" r="52" fill="#f2b84b"/>
+  <g stroke="#ee7554" stroke-width="34" stroke-linecap="round">
+    <path d="M340 205v123M340 432v123M165 380h123M392 380h123M216 256l87 87M377 417l87 87M464 256l-87 87M303 417l-87 87"/>
+  </g>
+  <rect x="700" y="210" width="365" height="340" rx="16" fill="#173b43"/>
+  <rect x="755" y="265" width="255" height="230" rx="8" fill="#268b83"/>
+  <rect x="815" y="320" width="135" height="120" fill="#f2b84b"/>
+  <text x="839" y="390" fill="#173b43" font-family="Arial,sans-serif" font-size="28" font-weight="700">FPGA</text>
+  <path d="M590 380h110m-24-24 24 24-24 24" fill="none" stroke="#ee7554" stroke-width="10"/>
+  <g stroke="#f2b84b" stroke-width="8">
+    <path d="M735 180v30m45-30v30m45-30v30m45-30v30m45-30v30m45-30v30m45-30v30"/>
+    <path d="M735 550v30m45-30v30m45-30v30m45-30v30m45-30v30m45-30v30m45-30v30"/>
+  </g>
+  <rect x="30" y="700" width="365" height="48" fill="#173b43"/>
+  <text x="50" y="732" fill="#fffdf6" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1">ILLUSTRATIVE PLACEHOLDER</text>
+</svg>

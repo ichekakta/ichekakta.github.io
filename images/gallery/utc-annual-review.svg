@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">UTC annual review illustration</title>
+  <desc id="desc">An abstract turbine rotor and research poster, with a visible illustration label identifying this as placeholder artwork.</desc>
+  <rect width="1200" height="800" fill="#f3e9d2"/>
+  <path d="M0 0h1200v800H0z" fill="#f3e9d2"/>
+  <circle cx="370" cy="380" r="255" fill="#d3e4dd"/>
+  <circle cx="370" cy="380" r="211" fill="#173b43"/>
+  <circle cx="370" cy="380" r="174" fill="#ee7554"/>
+  <g fill="#f3e9d2">
+    <path d="M370 206c25 40 40 87 32 137l-32 37-29-43c-4-49 8-93 29-131z"/>
+    <path d="M370 206c25 40 40 87 32 137l-32 37-29-43c-4-49 8-93 29-131z" transform="rotate(60 370 380)"/>
+    <path d="M370 206c25 40 40 87 32 137l-32 37-29-43c-4-49 8-93 29-131z" transform="rotate(120 370 380)"/>
+    <path d="M370 206c25 40 40 87 32 137l-32 37-29-43c-4-49 8-93 29-131z" transform="rotate(180 370 380)"/>
+    <path d="M370 206c25 40 40 87 32 137l-32 37-29-43c-4-49 8-93 29-131z" transform="rotate(240 370 380)"/>
+    <path d="M370 206c25 40 40 87 32 137l-32 37-29-43c-4-49 8-93 29-131z" transform="rotate(300 370 380)"/>
+  </g>
+  <circle cx="370" cy="380" r="55" fill="#173b43"/>
+  <rect x="690" y="120" width="390" height="520" rx="5" fill="#fffdf6"/>
+  <rect x="730" y="164" width="310" height="38" fill="#173b43"/>
+  <text x="750" y="190" fill="#fffdf6" font-family="Arial,sans-serif" font-size="19" font-weight="700">FPGA CO-PROCESSING</text>
+  <path d="M740 420h290" stroke="#d6d0c2" stroke-width="2"/>
+  <path d="M755 395 805 340l48 28 54-94 53 59 56-91" fill="none" stroke="#268b83" stroke-width="10"/>
+  <path d="M755 485h70v54h-70zm100-36h70v90h-70zm100-42h70v132h-70z" fill="#f2b84b"/>
+  <path d="M730 585h310" stroke="#ee7554" stroke-width="8"/>
+  <text x="695" y="705" fill="#173b43" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="2">UTC / DERBY / 2024</text>
+  <rect x="70" y="690" width="330" height="48" rx="3" fill="#173b43"/>
+  <text x="91" y="722" fill="#fffdf6" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="1">ILLUSTRATIVE PLACEHOLDER</text>
+</svg>
