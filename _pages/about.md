@@ -13,7 +13,7 @@ I'm a Research Associate in Control and Optimisation at the [Rolls-Royce Univers
 
 My work focuses on control and optimisation for aerospace propulsion, particularly aircraft engines.
 
-> When model predictive control runs on real-time hardware, which of its guarantees still hold?
+> When a controller runs on real-time hardware, which of its guarantees still hold?
 
 That question guides my work across systems & control, optimisation and hardware implementation.
 
