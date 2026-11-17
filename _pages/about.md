@@ -26,7 +26,7 @@ I earned my PhD in Automatic and Systems at the University of Ferhat Abbas Setif
 
 ## Explore
 
-[Publications](/publications/) · [CV](/cv/) · [Google Scholar](https://scholar.google.com/citations?user=X9_WRmUAAAAJ&hl=en)
+[Publications](/publications/) · [CV](/cv/) · [Google Scholar](https://scholar.google.com/citations?user=G5I2__4AAAAJ&hl=en)
 
 **Office:** B20, Amy Johnson Building, University of Sheffield, S1 3JD, Sheffield, United Kingdom.
 
