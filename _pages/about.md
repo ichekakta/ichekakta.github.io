@@ -16,7 +16,7 @@ That question guides my work across systems & control, optimisation and hardware
 
 ## Research directions
 
-- **Robust and safe control:** model predictive control with guarantees that matter in practice.
+- **Robust and safe control:** controllers with guarantees that matter in practice.
 - **Real-time optimisation:** deterministic optimisation mapped to FPGA and SoC platforms.
 - **Switched and quasi-LPV systems:** control and estimation for nonlinear and hybrid dynamics, including Takagi-Sugeno models.
 
